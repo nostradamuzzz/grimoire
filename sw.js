@@ -1,5 +1,5 @@
 /* Grimoire offline cache. Change VERSION whenever any file changes, so phones pick up the update. */
-const VERSION = 'grimoire-1.2.0';
+const VERSION = 'grimoire-2.3.0';
 const FILES = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', event => {
